@@ -22,4 +22,6 @@ from ad import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.ad),
+    path('some/', views.some),
+    path('card/', views.card),
 ]
